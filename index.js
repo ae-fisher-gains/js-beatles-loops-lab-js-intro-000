@@ -17,3 +17,12 @@ function johnLennonFacts (facts) {
   }
   return lennonArray
 }
+
+function iLoveTheBeatles (number) {
+  var beatlesArray = []
+  do {
+   beatlesArray.push ("I love the Beatles!");
+   number++
+ } while (number < 15);
+ return beatlesArray
+}
